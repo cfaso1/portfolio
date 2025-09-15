@@ -310,6 +310,14 @@ section {
     margin: auto 0;
 }
 
+.experience-icon {
+    cursor: default;
+}
+
+.education-icon {
+    cursor: default;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
