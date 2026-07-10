@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charles Faso Portfolio</title>
-    <meta name="description" content="Charles Faso's personal portfolio website showcasing projects, skills, and background in computer science and cybersecurity.">
-    <meta name="keywords" content="Charles Faso, Charlie Faso, Portfolio, Computer Science, Cybersecurity, Projects, Skills, Resume">
+    <meta name="description"
+        content="Charles Faso's personal portfolio website showcasing projects, skills, and background in computer science and cybersecurity.">
+    <meta name="keywords"
+        content="Charles Faso, Charlie Faso, Portfolio, Computer Science, Cybersecurity, Projects, Skills, Resume">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <nav id="desktop-nav">
         <div class="logo">Charles Faso</div>
         <div>
             <ul class="nav-links">
-              <li><a href="#about">About</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -35,341 +39,267 @@
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
+            </div>
         </div>
     </nav>
     <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Profile Picture">
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Charles Faso</h1>
-        <p class="section__text__p2">Security Analyst</p>
-        <div class="btn-container">
-          <button 
-            class="btn btn-color-2" onclick="window.open('/assets/CharlesFaso.pdf')">
-            View Resume
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Profile Picture">
         </div>
-        <div id="socials-container">
-          <img 
-            src="./assets/linkedin.png" 
-            alt="My LinkedIn Profile"
-            class="icon" 
-            onclick="location.href=`https://www.linkedin.com/in/charles-faso-3a9882325/`"
-          />
-          <img 
-            src="./assets/github.png" 
-            alt="My GitHub Profile"
-            class="icon" 
-            onclick="location.href='https://github.com/cfaso1'"
-          />
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Charles Faso</h1>
+            <p class="section__text__p2">Software Engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('/assets/CharlesFaso.pdf')">
+                    View Resume
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon"
+                    onclick="location.href=`https://www.linkedin.com/in/charles-faso-3a9882325/`" />
+                <img src="./assets/github.png" alt="My GitHub Profile" class="icon"
+                    onclick="location.href='https://github.com/cfaso1'" />
+            </div>
         </div>
-      </div>
     </section>
     <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img 
-            src="./assets/about-pic.png" 
-            alt="Profile Picture"
-            class="about-pic">
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img 
-                src="./assets/experience.png"
-                alt="Experience Icon"
-                class="icon experience-icon">
-              <h3>Experience</h3>
-              <p>Software Engineer Shadow<br />Cyber Competitions<br />Hackathons</p> 
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic">
             </div>
-            <div class="details-container">
-              <img 
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon education-icon">
-              <h3>Education</h3>
-              <p>UCF - Expected 2028: <br />B.Sc. Computer Science<br />Minor in Cybersecurity</p>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience Icon" class="icon experience-icon">
+                        <h3>Experience</h3>
+                        <p>Software Engineer Intern<br />Cyber Competitions<br />Startup Co-Founder</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon education-icon">
+                        <h3>Education</h3>
+                        <p>UCF - Expected 2028: <br />B.Sc. Computer Science<br />Minor in Cybersecurity</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I am a Computer Science student at the University of Central Florida pursuing a minor in Secure
+                        Computing & Networks, with a passion for cybersecurity and software development. My interests
+                        include penetration testing, secure application design, and both red and blue team operations
+                        through organizations such as Hack@UCF and KnightHacks. Alongside my studies, I have gained
+                        industry experience through a software engineering internship at Motorola Solutions and am
+                        co-founding BoulderCraft3D, a startup focused on developing innovative software for the climbing
+                        industry. These experiences have strengthened my technical skills while teaching me how to build
+                        secure, scalable applications and collaborate on real-world projects. I am currently working
+                        toward my CompTIA A+ certification and continue to expand my knowledge through hackathons,
+                        Capture the Flag competitions, and cybersecurity challenges. My goal is to build a career where
+                        I can help organizations strengthen their security, identify vulnerabilities, and create
+                        technology that makes a meaningful impact.
+                    </p>
+                </div>
             </div>
-          </div>
-          <div class="text-container">
-            <p>
-              I am a Computer Science student at the University of Central Florida pursuing a minor in Secure Computing & Networks. 
-              My focus is on cybersecurity, especially penetration testing and red/blue team operations 
-              as part of the HackUCF and KnightHacks clubs at my University. 
-              I am currently working towards my CompTIA A+ certification 
-              and plan to participate in Hackathons, Capture The Flags (CTFs), and Cyber Competitions to sharpen my skills.
-              I'm motivated to build a career in cybersecurity where 
-              I can strengthen defenses, test vulnerabilities, and contribute to protecting critical systems.
-            </p>
-          </div>
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'">
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
     </section>
     <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Languages</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"/>
-                <div>
-                  <h3>Python</h3>
-                  <p>Experienced</p>
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>C</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>C++</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>C#</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML/CSS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
                 </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"/>
-                <div>
-                  <h3>C</h3>
-                  <p>Experienced</p>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Tools & Platforms</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Git/GitHub</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Blender</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Unity</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>VIM</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Linux</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Claude Code</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
                 </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"/>
-                <div>
-                  <h3>Java</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"/>
-                <div>
-                  <h3>CSS</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"/>
-                <div>
-                  <h3>HTML</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"/>
-              <div>
-                <h3>JavaScript</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-          </div>
+            </div>
         </div>
-        <div class="details-container">
-          <h2 class="experience-sub-title">Tools & Platforms</h2>
-          <div class="article-container">
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"/>
-              <div>
-                <h3>Git/GitHub</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"/>
-              <div>
-                <h3>VS Code</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"/>
-              <div>
-                <h3>VIM</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"/>
-              <div>
-                <h3>Eclipse</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"/>
-              <div>
-                <h3>Linux</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"/>
-              <div>
-                <h3>Windows</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </div>
-    <img
-      src="./assets/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#projects'">
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
     </section>
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"/>
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title">Password Manager</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/cfaso1/Password-Manager'">
+                            GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://youtu.be/KvnZs8jF5dk'">
+                            Video Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title">Minigames Library</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/cfaso1/Java-Minigames'">
+                            GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://youtube.com/shorts/y5mc6bjwQ_c'">
+                            Video Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title">BalanceBotAI</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/cfaso1/AINutritionHelp'">
+                            GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://balancebotai.netlify.app/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
             </div>
-            <h2 class="experience-sub-title">Password Manager</h2>
-            <div class="btn-container">
-              <button 
-                class="btn btn-color-2 project-btn" 
-                onclick="location.href='https://github.com/cfaso1/Password-Manager'">
-                  GitHub
-              </button>
-              <button 
-                class="btn btn-color-2 project-btn" 
-                onclick="location.href='https://youtu.be/KvnZs8jF5dk'">
-                  Video Demo
-              </button>
-          </div>
-        </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"/>
-            </div>
-            <h2 class="experience-sub-title">Minigames Library</h2>
-            <div class="btn-container">
-              <button 
-                class="btn btn-color-2 project-btn" 
-                onclick="location.href='https://github.com/cfaso1/Java-Minigames'">
-                  GitHub
-              </button>
-              <button 
-                class="btn btn-color-2 project-btn" 
-                onclick="location.href='https://youtube.com/shorts/y5mc6bjwQ_c'">
-                  Video Demo
-              </button>
-          </div>
-        </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"/>
-            </div>
-            <h2 class="experience-sub-title">BalanceBotAI</h2>
-            <div class="btn-container">
-              <button 
-                class="btn btn-color-2 project-btn" 
-                onclick="location.href='https://github.com/cfaso1/AINutritionHelp'">
-                  GitHub
-              </button>
-              <button 
-                class="btn btn-color-2 project-btn" 
-                onclick="location.href='https://balancebotai.netlify.app/'">
-                  Live Demo
-              </button>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'">
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
     </section>
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"/>
-            <p><a href="mailto:fasocharlie@gmail.com">FasoCharlie@gmail.com</a></p>
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:fasocharlie@gmail.com">FasoCharlie@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/charles-faso-3a9882325/">LinkedIn</a></p>
+            </div>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="linkedIn icon"
-            class="icon contact-icon"/>
-            <p><a href="https://www.linkedin.com/in/charles-faso-3a9882325/">LinkedIn</a></p>
-        </div>
-      </div>
     </section>
     <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <p>Copyright &#169; 2025 Charles Faso. All Rights Reserved.</p>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2026 Charles Faso. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
